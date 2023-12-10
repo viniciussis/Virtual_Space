@@ -6,14 +6,14 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.tittle {
+.bannerTitle {
   font-family: var(--fonte-primaria);
   font-size: 4rem;
   margin-top: 4.875rem;
   margin-bottom: 2rem;
 }
 
-.para {
+.bannerPara {
   font-family: var(--fonte-secundaria);
   font-size: 1.5rem;
   line-height: 2rem;
@@ -25,7 +25,7 @@
   height: 406px;
 }
 
-.images > .myPhoto {
+.images > .profile {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -45,12 +45,12 @@
       padding: 3.5rem 1.5rem;
   }
 
-  .tittle {
+  .bannerTitle {
       margin-top: 0;
       margin-bottom: 1.5rem;
   }
 
-  .para {
+  .bannerPara {
       margin-bottom: 1.5rem;
   }
 
@@ -58,7 +58,7 @@
       height: 338px;
   }
 
-  .images > .myPhoto {
+  .images > .profile {
       width: 25vw;
   }
 
@@ -74,11 +74,11 @@
       display: block;
   }
 
-  .tittle {
+  .bannerTitle {
       margin-bottom: 2rem;
   }
 
-  .para {
+  .bannerPara {
       margin-bottom: 2rem;
   }
 
@@ -86,13 +86,13 @@
       height: 307px;
   }
 
-  .images > .myPhoto, .images > .colorfulCicle {
+  .images > .profile, .images > .colorfulCicle {
       left: 0;
       right: 0;
       margin: 0 auto;
   }
 
-  .images > .myPhoto {
+  .images > .profile {
       width: 170px;
       transform: translate(5rem, 0px);
   }
