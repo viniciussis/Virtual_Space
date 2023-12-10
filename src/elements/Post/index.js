@@ -1,16 +1,24 @@
-import './Post.css'
+import { useParams } from 'react-router-dom';
+import '../Post/Post.css';
+import posts from '../../json/posts.json';
+import PostCard from 'elements/PostCard';
 
-const Post = ({ post }) => {
+const Post = () => {
+
+  const params = useParams();
+
+  const post = posts.find((post) => {
+    return (
+      post.id === Number(params.id)
+    )
+  })
+
+  console.log(post)
+
   return (
-    <div className='post'>
-      <img className='cover' src={`/posts/${post.id}/capa.png`} alt={post.title} />
-      <h1 className='postTitle'>
-        {post.title}
-      </h1>
-      <button className='readButton'>
-        Ler
-      </button>
-    </div>
+    <PostCard post={post}>
+
+    </PostCard>
   )
 }
 
