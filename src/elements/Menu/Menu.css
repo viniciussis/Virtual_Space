@@ -1,0 +1,28 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 56px;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  font-size: 28px;
+  text-decoration: none;
+  transition-duration: 0.8s;
+  padding: 16px;
+  font-variant: small-caps;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.link:hover {
+  background-color: black;
+  color: white;
+}
