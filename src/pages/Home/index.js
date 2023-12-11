@@ -1,4 +1,4 @@
-import Post from '../PostCard'
+import Post from '../../elements/PostCard'
 import posts from '../../json/posts.json'
 import './Home.css'
 
