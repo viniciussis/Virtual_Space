@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Menu from './elements/Menu';
 import AboutMe from './pages/AboutMe';
 import Default from 'elements/Default';
-import Post from 'elements/Post';
+import Post from 'pages/Post';
 import NotFound from 'pages/NotFound';
 
 function App() {

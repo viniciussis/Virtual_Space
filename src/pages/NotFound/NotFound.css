@@ -3,7 +3,7 @@
   text-align: center;
   background-color: var(--azul-escuro);
   color: var(--branco);
-  padding: 0 1.5rem 6.5rem;
+  padding: 56px 100px 100px;
 }
 
 .error404 {
@@ -12,33 +12,33 @@
   font-family: var(--fonte-secundaria);
   font-size: 6rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 12px;
 }
 
 .errorTitle {
   font-family: var(--fonte-secundaria);
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 12px;
 }
 
 .errorPara {
   font-size: 1.5rem;
-  line-height: 1.75rem;
+  line-height: 1.25;
 }
 
 .return {
   text-align: start;
-  margin-top: 3.5rem;
+  margin-top: 40px;
   margin-left: 30vw;
 }
 
 .errorImg {
   position: absolute;
   height: 25vw;
-  bottom: calc(-25vw * 0.5);
+  bottom: calc(-25vw * 0.6);
 }
 
-.espacoEmBranco {
+.whiteSpace {
   height: 40vh;
 }
 
@@ -58,7 +58,7 @@
       left: 40vw;
   }
 
-  .espacoEmBranco {
+  .whiteSpace {
       height: 53vw;
   }
 }
@@ -97,7 +97,7 @@
       max-height: 375px;
   }
 
-  .espacoEmBranco {
+  .whiteSpace {
       height: calc(94vw * 0.5);
   }
 }

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './PostCard.css'
+import Button from 'elements/Button'
 
 const PostCard = ({ post }) => {
   return (
@@ -9,9 +10,9 @@ const PostCard = ({ post }) => {
         {post.title}
       </h1>
       <Link to={`/articles/${post.id}`}>
-        <button className='readButton'>
+        <Button bStyle='bgLight'>
           Ler
-        </button>     
+        </Button>     
       </Link>
     </div>
   )
