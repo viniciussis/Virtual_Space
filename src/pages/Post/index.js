@@ -21,6 +21,7 @@ const Post = () => {
     }
   })
 
+
   return (
     <Template coverPhoto={`/posts/${post.id}/capa.png`} title={post.title}>
       <div className='markdownContainer'>
@@ -28,7 +29,6 @@ const Post = () => {
           {post.text}
         </Markdown>
       </div>
-      <Indications/>
     </Template>
   )
 }
