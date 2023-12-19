@@ -27,7 +27,7 @@
 }
 
 .contentContainer {
-  padding: 2.5rem 7.5rem 4.5rem;
+  padding: 2.5rem 7.5rem 1rem;
 }
 
 @media (max-width: 744px) {

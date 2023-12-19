@@ -2,36 +2,20 @@ import PostCard from 'elements/PostCard';
 import './Indications.css';
 import posts from '../../json/posts.json';
 
-const Indications = () => {
+const Indications = ({ postId }) => {
 
-{/*  
-  const newSuggestions = posts.filter(post => post.id !== Number(params.id));
-
-  const randomSuggestions = [];
-  
-  while (randomSuggestions.length < 4 && newSuggestions.length > 0) {
-    const randomIndex = Math.floor(Math.random() * newSuggestions.length);
-    const random = newSuggestions[randomIndex];
-    
-    if (!randomSuggestions.includes(random)) {
-      randomSuggestions.push(random);
-    }
-    newSuggestions.splice(randomIndex, 1);
-  }
-
-  setSuggestions(newSuggestions)
-}, [])
-
-const [suggestions, setSuggestions] = useState([]);
-
-*/}
-
-  const newPosts = posts.filter(post => post.id)
+  const newPosts = posts.filter(post => post.id !== postId).sort(() => Math.random() - 0.5).slice(0, 4);
 
   return (
-    <div className='containerIndication'>
+    <div className='containerIndications'>
       <h2>Outros posts que você possa gostar:</h2>
-      <PostCard/>
+      <ul className='indications'>
+        {newPosts.map(
+          post => (<li key={post.id}>
+            <PostCard post={post} />
+          </li>)
+        )}
+      </ul>
     </div>
   )
 }

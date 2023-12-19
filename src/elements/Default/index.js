@@ -3,11 +3,12 @@ import '../Default/Default.css';
 import { Outlet } from 'react-router-dom';
 import Footer from 'elements/Footer';
 
-const Default = () => {
+const Default = ({ children }) => {
   return (
     <div>
       <Banner/>
       <Outlet/>
+      {children}
       <Footer/>
     </div>
   )

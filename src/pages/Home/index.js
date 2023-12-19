@@ -1,4 +1,4 @@
-import Post from '../../elements/PostCard'
+import PostCard from '../../elements/PostCard'
 import posts from '../../json/posts.json'
 import './Home.css'
 
@@ -8,7 +8,7 @@ const Home = () => {
       <ul className='posts'>
         {posts.map(
           post => (<li key={post.id}>
-            <Post post={post} />
+            <PostCard post={post} />
           </li>)
         )}
       </ul>
