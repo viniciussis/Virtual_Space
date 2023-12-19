@@ -19,6 +19,7 @@ const Post = () => {
     return <NotFound />
   }
 
+
   return (
     <Default>
       <Template coverPhoto={`/posts/${post.id}/capa.png`} title={post.title}>
