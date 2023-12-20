@@ -1,7 +1,7 @@
 import './NotFound.css'
 import error from '../../images/erro_404.png'
-import Footer from 'elements/Footer'
-import Button from 'elements/Button'
+import Footer from 'components/Footer'
+import Button from 'components/Button'
 import { useNavigate } from 'react-router-dom'
 
 const NotFound = () => {

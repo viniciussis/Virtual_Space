@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './PostCard.css'
-import Button from 'elements/Button'
+import Button from 'components/Button'
 
 const PostCard = ({ post }) => {
   return (

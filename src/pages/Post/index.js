@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom';
 import './Post.css';
 import posts from '../../json/posts.json';
-import Template from 'elements/Template';
+import Template from 'components/Template';
 import Markdown from 'react-markdown';
 import NotFound from 'pages/NotFound';
-import Default from 'elements/Default';
-import Indications from 'elements/Indications';
+import Default from 'components/Default';
+import Indications from 'components/Indications';
 
 const Post = () => {
 

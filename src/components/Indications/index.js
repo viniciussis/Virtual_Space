@@ -1,4 +1,4 @@
-import PostCard from 'elements/PostCard';
+import PostCard from 'components/PostCard';
 import './Indications.css';
 import posts from '../../json/posts.json';
 

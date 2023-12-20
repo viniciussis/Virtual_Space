@@ -1,4 +1,4 @@
-import Template from 'elements/Template'
+import Template from 'components/Template'
 import './AboutMe.css'
 import myPhoto from '../../images/Profile 01.jpeg'
 import cover from '../../images/dev_life.jpg'

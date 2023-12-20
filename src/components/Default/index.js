@@ -1,7 +1,7 @@
-import Banner from 'elements/Banner';
-import '../Default/Default.css';
+import Banner from 'components/Banner';
+import './Default.css';
 import { Outlet } from 'react-router-dom';
-import Footer from 'elements/Footer';
+import Footer from 'components/Footer';
 
 const Default = ({ children }) => {
   return (
