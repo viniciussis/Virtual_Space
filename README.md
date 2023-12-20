@@ -4,6 +4,8 @@
 
 O **Virtual Space** é um mini blog desenvolvido em React, explorando conceitos de React Router, rotas dinâmicas, Single Page Applications (SPAs), e aproveitando bibliotecas como `react-markdown` e `react-icons`.
 
+Você também pode conferir a demonstração ao vivo do projeto [aqui!](https://virtual-space-viniciussis-projects.vercel.app/)
+
 ## Funcionalidades
 
 - **Rotas e Navegação Dinâmica:** Utilização do `react-router-dom` para gerenciar as rotas e permitir uma experiência de navegação dinâmica.
@@ -20,8 +22,8 @@ O **Virtual Space** é um mini blog desenvolvido em React, explorando conceitos 
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/virtual-space.git`
-2. Entre no diretório do projeto: `cd virtual-space`
+1. Clone o repositório: `git clone https://github.com/viniciussis/Virtual_Space.git`
+2. Entre no diretório do projeto: `cd Virtual_Space`
 3. Instale as dependências: `npm install`
 
 ## Como Usar
